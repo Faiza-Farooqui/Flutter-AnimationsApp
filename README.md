@@ -13,8 +13,11 @@ sliding_up_panel: ^2.0.0+1
 flutter_barcode_scanner: ^2.0.0
 ```
 
-## ScreenRecording
-<img height="480px" src="https://user-images.githubusercontent.com/36657067/116820134-420b2400-ab28-11eb-826a-caa69072ba6b.gif">
+## Screen Recording 
+
+ Animated Cards            |   Slide Up Sheet               
+:-------------------------:|:-------------------------:
+<img height="480px" src="https://user-images.githubusercontent.com/36657067/123240093-6f0cff00-d4f9-11eb-85ad-11b4cec89d27.gif?raw=true">|<img height="480px" src="https://user-images.githubusercontent.com/36657067/123241995-09217700-d4fb-11eb-957e-6b1b43c0228e.gif?raw=true">
 
 ## ScreenShots
  MainBody                  |   PanelBody               
@@ -25,6 +28,6 @@ flutter_barcode_scanner: ^2.0.0
 :-------------------------:|:-------------------------:
 <img height="380px" src="https://user-images.githubusercontent.com/36657067/123076689-d01dcf80-d432-11eb-9709-3c00bdd85dd5.jpeg?raw=true">|<img height="380px" src="https://user-images.githubusercontent.com/36657067/123078684-a5347b00-d434-11eb-9e83-7e373172cc03.jpeg?raw=true">
 
-## Developer Team
+## Developer
 Faiza Farooqui 
 
