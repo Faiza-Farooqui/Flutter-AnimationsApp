@@ -1,91 +1,33 @@
-# Awesome Animated Cards
+# flutter_animated_app
 
-A Fully customizable animated cards widget that has feature of 3D animation and much more. This widget works on both Android & iOS.
+## App Description
+I have recreated this Flutter animation application. It has two modules 1-Animated Cards, 2- Slide Up Bottom Sheet. You can also use these modules individually.
+Suggest me more animations so I will add in it.
 
 ## Installation
 
-Add following dependency in pubspec.yaml file. And add this import to your file.
+Add following dependency in pubspec.yaml file. One is for bottom_slide_bar and other one is for bar code reading(use this if you want to use bar code scanner in app).
 
-```yaml
-awesome_dropdown:^0.0.4
-
-import 'package:awesome_dropdown/awesome_dropdown.dart';
-```
-## Quick Start
-
-```python
-// Add AnimatedCards to the widget tree
-
-child: AnimatedCards(
-          list: _cardList,
-          model: _cardModel,
-        ),                ​
+```bash
+sliding_up_panel: ^2.0.0+1
+flutter_barcode_scanner: ^2.0.0
 ```
 
-## Card Model
+## Screen Recording 
 
-```dart
-class CardModel {
-   final String title;                  /// required
-   final String imagePath;            /// required  i.e "assets/images/image.png"
-   final String description;        /// (Optional)
-   final Color color;             /// (Optional) add this parameter if you want to have different color on each card
-   final List<Color> colorList; /// (Optional) add this parameter if you want to apply different gradient on each card
-}
-```
-#### `AnimatedCards` made through model class
-If you add Color parameter in your model class and assign each list item a new different color then your widget look like this.
+ Animated Cards            |   Slide Up Sheet               
+:-------------------------:|:-------------------------:
+<img height="480px" src="https://user-images.githubusercontent.com/36657067/123240093-6f0cff00-d4f9-11eb-85ad-11b4cec89d27.gif?raw=true">|<img height="480px" src="https://user-images.githubusercontent.com/36657067/123241995-09217700-d4fb-11eb-957e-6b1b43c0228e.gif?raw=true">
 
- Animated Cards           |             
-:-------------------------:
-<img height="450px" src="https://user-images.githubusercontent.com/36657067/123776333-a2300380-d8e8-11eb-801a-6c4cd179bea3.gif?raw=true">
+## ScreenShots
+ MainBody                  |   PanelBody               
+:-------------------------:|:-------------------------:
+<img height="380px" src="https://user-images.githubusercontent.com/36657067/123076540-ae244d00-d432-11eb-960c-0d55423bcb01.jpeg?raw=true">|<img height="380px" src="https://user-images.githubusercontent.com/36657067/123081196-24c34980-d437-11eb-9483-0da62b811b50.jpeg?raw=true">
 
-#### `AnimatedCards` without passing any color in model class
-This is another way to give colors or gradient to your card. Now you need to add 'cardWithSingleColor' or 'cardWithGradientColors' as shown below
-
- Cards with Single Color    |   Cards with Single Gradient               
-:-------------------------:|:-----------------------------:
-<img height="380px" src="https://user-images.githubusercontent.com/36657067/123781193-621f4f80-d8ed-11eb-80fc-f60da0c90bec.jpeg?raw=true">|<img height="380px" src="https://user-images.githubusercontent.com/36657067/123785579-20dd6e80-d8f2-11eb-8690-f9cc7bd91ee9.jpeg?raw=true">
-
-```python
-1-
-   child: AnimatedCards(
-          list: _cardList,
-          model: _cardModel,
-          cardWithSingleColor: Color(0xfff9d9e2),  // you are not asked to add this parameter, but you can this if you want to display your cards with any other single color. By default cards will appear as it is shown in Screenshot 
-        ),
-
-2- 
-   child: TravelCardList(
-          list: _cardList,
-          model: _cardModel,
-          cardWithGradientColors: [Color(0xffacb6e5),  // this parameter is needs to be added to add gradient, there is no default gradient available in lib
-           Color(0xFFD5D2D2),
-           Color(0xFFfbc7d4)],
-        ),
-
-```
-
-<br>
-
-## Custom Usage
-There are several options that allow for more control:
-
-|  Properties  |   Description   |
-|--------------|-----------------|
-| `model` | This is the required parameter. You need to pass a model class somehow similar to the one shown in example, you can add more arguments in your class but 'name', 'description', 'image' is necessary |
-| `list` | This is also the required parameter. You need to pass a list of your model class, this list can not be null or empty|
-| `cardHeight` | set card height according to your requirement. |
-| `cardWidth` | set card width according to your requirement. |
-| `isRotatingCards` | by default it's 'true', you can set it 'false' if you don't want to add 3D rotation in your cards. |
-| `cardWithSingleColor` | if you want to give all your cards one single color, use this property. You can also give each card a different color through model class |
-| `cardWithGradientColors` | it takes List<Color> as a parameter, this property allows you to apply the same gradient on all of your cards. You can also give each card a different gradient through model class |
-| `moreText` | by default I have set it to 'LEARN MORE', but you can change it to any text according to your choice. |
-| `onMoreBtnPressed` | this is a click event, currently it performs nothing you can use it according to your choice. |
-
+ QRCodeResult Page         |        BarCodeResult Page
+:-------------------------:|:-------------------------:
+<img height="380px" src="https://user-images.githubusercontent.com/36657067/123076689-d01dcf80-d432-11eb-9709-3c00bdd85dd5.jpeg?raw=true">|<img height="380px" src="https://user-images.githubusercontent.com/36657067/123078684-a5347b00-d434-11eb-9e83-7e373172cc03.jpeg?raw=true">
 
 ## Developer
-Faiza Farooqui
+Faiza Farooqui 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
