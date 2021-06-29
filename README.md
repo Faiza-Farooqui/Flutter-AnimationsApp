@@ -34,19 +34,18 @@ class CardModel {
 }
 ```
 #### `AnimatedCards` made through model class
-If you add Color parameter in your model class and assign each list item a new different color then your widget look like this. For example:
+If you add Color parameter in your model class and assign each list item a new different color then your widget look like this.
 
  Animated Cards           |             
 :-------------------------:
-<img height="450px" src="https://user-images.githubusercontent.com/36657067/123776333-a2300380-d8e8-11eb-801a-6c4cd179bea3.gif?raw=true">/
+<img height="450px" src="https://user-images.githubusercontent.com/36657067/123776333-a2300380-d8e8-11eb-801a-6c4cd179bea3.gif?raw=true">
 
 #### `AnimatedCards` without passing any color in model class
 This is another way to give colors or gradient to your card. Now you need to add 'cardWithSingleColor' or 'cardWithGradientColors' as shown below
 
  Cards with Single Color    |   Cards with Single Gradient               
 :-------------------------:|:-----------------------------:
-<img height="380px" src="https://user-images.githubusercontent.com/36657067/123781193-621f4f80-d8ed-11eb-80fc-f60da0c90bec.jpeg?raw=true">/
-<img height="380px" src="https://user-images.githubusercontent.com/36657067/123785579-20dd6e80-d8f2-11eb-8690-f9cc7bd91ee9.jpeg?raw=true">
+<img height="380px" src="https://user-images.githubusercontent.com/36657067/123781193-621f4f80-d8ed-11eb-80fc-f60da0c90bec.jpeg?raw=true">/<img height="380px" src="https://user-images.githubusercontent.com/36657067/123785579-20dd6e80-d8f2-11eb-8690-f9cc7bd91ee9.jpeg?raw=true">
 
 ```python
 1-
